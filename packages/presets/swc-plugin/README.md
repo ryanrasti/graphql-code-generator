@@ -69,3 +69,9 @@ To publish a new version ensure you have done the following:
 - Update the `CHANGELOG.md` with the new version and changes
 - Commit the changes
 - From GitHub Actions, run the `Rust plugin` workflow
+
+### Building for different versions of `swc_core`
+- Update `swc_core` version in `Cargo.toml` (see https://swc.rs/docs/plugin/selecting-swc-core for how
+  to choose the right version to match the npm package version you want to build it for)
+- Run `npm run build-wasm`
+- Publish with `npm publish --access=public`

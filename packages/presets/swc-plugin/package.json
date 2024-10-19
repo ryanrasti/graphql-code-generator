@@ -1,7 +1,7 @@
 {
-  "name": "@graphql-codegen/client-preset-swc-plugin",
+  "name": "client-preset-swc-plugin-2",
   "version": "0.2.0",
-  "description": "A SWC plugin for https://the-guild.dev/graphql/codegen/plugins/presets/preset-client",
+  "description": "A SWC plugin for https://the-guild.dev/graphql/codegen/plugins/presets/preset-client (swc_core 1.3.95)",
   "license": "MIT",
   "bob": false,
   "keywords": [
@@ -17,7 +17,7 @@
   "homepage": "https://the-guild.dev/graphql/codegen/plugins/presets/preset-client",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dotansimha/graphql-code-generator.git",
+    "url": "https://github.com/ryanrasti/graphql-code-generator",
     "directory": "packages/presets/client/swc-plugin"
   },
   "bugs": {
